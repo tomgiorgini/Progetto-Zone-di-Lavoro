@@ -1,0 +1,29 @@
+
+
+TESTING  KNeighborsClassifier
+mode:  full
+with seq_len =  2
+              precision    recall  f1-score   support
+
+      Riposo       0.91      0.88      0.89      1225
+    Aerobica       0.72      0.76      0.74       694
+  Anaerobica       0.95      0.96      0.95      2074
+
+    accuracy                           0.90      3993
+   macro avg       0.86      0.86      0.86      3993
+weighted avg       0.90      0.90      0.90      3993
+ elapsed time:  2.9410828999243677 
+
+with seq_len =  4
+              precision    recall  f1-score   support
+
+      Riposo       0.89      0.87      0.88      1200
+    Aerobica       0.70      0.73      0.72       686
+  Anaerobica       0.95      0.95      0.95      2101
+
+    accuracy                           0.89      3987
+   macro avg       0.85      0.85      0.85      3987
+weighted avg       0.89      0.89      0.89      3987
+ elapsed time:  2.8445939000230283 
+
+with seq_len =  8

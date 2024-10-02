@@ -1,0 +1,71 @@
+
+
+TUNING KNN WITH SEQ_LEN =  2
+
+WITH MODE full
+Migliori iperparametri: {'n_neighbors': 1, 'weights': 'uniform'}
+Miglior score: 0.8703957029948708
+
+WITH MODE no-load
+Migliori iperparametri: {'n_neighbors': 1, 'weights': 'uniform'}
+Miglior score: 0.9046417048417524
+
+WITH MODE rf-hr
+Migliori iperparametri: {'n_neighbors': 50, 'weights': 'distance'}
+Miglior score: 0.6371542224280689
+
+TUNING KNN WITH SEQ_LEN =  4
+
+WITH MODE full
+Migliori iperparametri: {'n_neighbors': 1, 'weights': 'uniform'}
+Miglior score: 0.8650091103243429
+
+WITH MODE no-load
+Migliori iperparametri: {'n_neighbors': 1, 'weights': 'uniform'}
+Miglior score: 0.9053205546891929
+
+WITH MODE rf-hr
+Migliori iperparametri: {'n_neighbors': 20, 'weights': 'distance'}
+Miglior score: 0.6483606925987162
+
+TUNING KNN WITH SEQ_LEN =  8
+
+WITH MODE full
+Migliori iperparametri: {'n_neighbors': 1, 'weights': 'uniform'}
+Miglior score: 0.8694908418240062
+
+WITH MODE no-load
+Migliori iperparametri: {'n_neighbors': 1, 'weights': 'uniform'}
+Miglior score: 0.9133787166154559
+
+WITH MODE rf-hr
+Migliori iperparametri: {'n_neighbors': 10, 'weights': 'distance'}
+Miglior score: 0.6825014379239607
+
+TUNING KNN WITH SEQ_LEN =  16
+
+WITH MODE full
+Migliori iperparametri: {'n_neighbors': 1, 'weights': 'uniform'}
+Miglior score: 0.9010581881678554
+
+WITH MODE no-load
+Migliori iperparametri: {'n_neighbors': 1, 'weights': 'uniform'}
+Miglior score: 0.9144784512339186
+
+WITH MODE rf-hr
+Migliori iperparametri: {'n_neighbors': 1, 'weights': 'uniform'}
+Miglior score: 0.7905361434241602
+
+TUNING KNN WITH SEQ_LEN =  32
+
+WITH MODE full
+Migliori iperparametri: {'n_neighbors': 1, 'weights': 'uniform'}
+Miglior score: 0.9256440677742844
+
+WITH MODE no-load
+Migliori iperparametri: {'n_neighbors': 1, 'weights': 'uniform'}
+Miglior score: 0.9199210656547221
+
+WITH MODE rf-hr
+Migliori iperparametri: {'n_neighbors': 1, 'weights': 'uniform'}
+Miglior score: 0.8601178660810863

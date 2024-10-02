@@ -1,0 +1,411 @@
+
+Testing with seq_len:  2
+with mode:  FULL
+with classfier  KNeighborsClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.97      0.97      0.97      2668
+    Aerobica       0.93      0.93      0.93      1476
+  Anaerobica       0.99      0.99      0.99      4916
+
+    accuracy                           0.97      9060
+   macro avg       0.96      0.96      0.96      9060
+weighted avg       0.97      0.97      0.97      9060
+ elapsed time:  0.532760800095275 
+
+with classfier  RandomForestClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.98      0.99      0.99      2668
+    Aerobica       0.97      0.95      0.96      1476
+  Anaerobica       0.99      0.99      0.99      4916
+
+    accuracy                           0.99      9060
+   macro avg       0.98      0.98      0.98      9060
+weighted avg       0.99      0.99      0.99      9060
+ elapsed time:  15.614130800124258 
+
+with classfier  SVC() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.86      0.90      0.88      2668
+    Aerobica       0.66      0.60      0.63      1476
+  Anaerobica       0.94      0.94      0.94      4916
+
+    accuracy                           0.87      9060
+   macro avg       0.82      0.81      0.82      9060
+weighted avg       0.87      0.87      0.87      9060
+ elapsed time:  17.888194000115618 
+
+Testing with seq_len:  2
+with mode:  RF-HR
+with classfier  KNeighborsClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.69      0.71      0.70      2668
+    Aerobica       0.49      0.44      0.46      1476
+  Anaerobica       0.78      0.79      0.78      4916
+
+    accuracy                           0.71      9060
+   macro avg       0.65      0.65      0.65      9060
+weighted avg       0.70      0.71      0.71      9060
+ elapsed time:  0.3899279001634568 
+
+with classfier  RandomForestClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.73      0.73      0.73      2668
+    Aerobica       0.59      0.42      0.49      1476
+  Anaerobica       0.78      0.85      0.82      4916
+
+    accuracy                           0.75      9060
+   macro avg       0.70      0.67      0.68      9060
+weighted avg       0.74      0.75      0.74      9060
+ elapsed time:  10.126972700003535 
+
+with classfier  SVC() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.69      0.69      0.69      2668
+    Aerobica       0.52      0.02      0.03      1476
+  Anaerobica       0.68      0.88      0.77      4916
+
+    accuracy                           0.69      9060
+   macro avg       0.63      0.53      0.50      9060
+weighted avg       0.66      0.69      0.63      9060
+ elapsed time:  15.61883270018734 
+
+Testing with seq_len:  4
+with mode:  FULL
+with classfier  KNeighborsClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.97      0.98      0.97      2662
+    Aerobica       0.93      0.93      0.93      1489
+  Anaerobica       0.99      0.99      0.99      4874
+
+    accuracy                           0.97      9025
+   macro avg       0.96      0.96      0.96      9025
+weighted avg       0.97      0.97      0.97      9025
+ elapsed time:  0.3384184001479298 
+
+with classfier  RandomForestClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.98      0.99      0.98      2662
+    Aerobica       0.97      0.95      0.96      1489
+  Anaerobica       0.99      0.99      0.99      4874
+
+    accuracy                           0.99      9025
+   macro avg       0.98      0.98      0.98      9025
+weighted avg       0.99      0.99      0.99      9025
+ elapsed time:  20.13667400018312 
+
+with classfier  SVC() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.86      0.90      0.88      2662
+    Aerobica       0.66      0.60      0.63      1489
+  Anaerobica       0.94      0.93      0.93      4874
+
+    accuracy                           0.87      9025
+   macro avg       0.82      0.81      0.81      9025
+weighted avg       0.87      0.87      0.87      9025
+ elapsed time:  22.333082400029525 
+
+Testing with seq_len:  4
+with mode:  RF-HR
+with classfier  KNeighborsClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.71      0.71      0.71      2662
+    Aerobica       0.54      0.50      0.52      1489
+  Anaerobica       0.80      0.81      0.81      4874
+
+    accuracy                           0.73      9025
+   macro avg       0.68      0.68      0.68      9025
+weighted avg       0.73      0.73      0.73      9025
+ elapsed time:  0.47588080004788935 
+
+with classfier  RandomForestClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.76      0.75      0.76      2662
+    Aerobica       0.67      0.51      0.58      1489
+  Anaerobica       0.82      0.89      0.85      4874
+
+    accuracy                           0.78      9025
+   macro avg       0.75      0.72      0.73      9025
+weighted avg       0.78      0.78      0.78      9025
+ elapsed time:  9.900212700013071 
+
+with classfier  SVC() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.70      0.69      0.69      2662
+    Aerobica       0.43      0.03      0.06      1489
+  Anaerobica       0.69      0.89      0.77      4874
+
+    accuracy                           0.69      9025
+   macro avg       0.61      0.54      0.51      9025
+weighted avg       0.65      0.69      0.63      9025
+ elapsed time:  15.207521399948746 
+
+Testing with seq_len:  8
+with mode:  FULL
+with classfier  KNeighborsClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.98      0.98      0.98      2590
+    Aerobica       0.94      0.95      0.95      1494
+  Anaerobica       0.99      0.99      0.99      4870
+
+    accuracy                           0.98      8954
+   macro avg       0.97      0.97      0.97      8954
+weighted avg       0.98      0.98      0.98      8954
+ elapsed time:  0.4546666000969708 
+
+with classfier  RandomForestClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.98      0.99      0.99      2590
+    Aerobica       0.98      0.97      0.97      1494
+  Anaerobica       1.00      1.00      1.00      4870
+
+    accuracy                           0.99      8954
+   macro avg       0.99      0.98      0.99      8954
+weighted avg       0.99      0.99      0.99      8954
+ elapsed time:  30.637462800135836 
+
+with classfier  SVC() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.86      0.91      0.88      2590
+    Aerobica       0.67      0.63      0.65      1494
+  Anaerobica       0.94      0.93      0.94      4870
+
+    accuracy                           0.87      8954
+   macro avg       0.82      0.82      0.82      8954
+weighted avg       0.87      0.87      0.87      8954
+ elapsed time:  33.17900470015593 
+
+Testing with seq_len:  8
+with mode:  RF-HR
+with classfier  KNeighborsClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.79      0.79      0.79      2590
+    Aerobica       0.67      0.64      0.65      1494
+  Anaerobica       0.85      0.86      0.86      4870
+
+    accuracy                           0.80      8954
+   macro avg       0.77      0.76      0.77      8954
+weighted avg       0.80      0.80      0.80      8954
+ elapsed time:  0.33640739996917546 
+
+with classfier  RandomForestClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.84      0.85      0.84      2590
+    Aerobica       0.79      0.67      0.72      1494
+  Anaerobica       0.88      0.92      0.90      4870
+
+    accuracy                           0.86      8954
+   macro avg       0.84      0.81      0.82      8954
+weighted avg       0.85      0.86      0.85      8954
+ elapsed time:  17.278690399834886 
+
+with classfier  SVC() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.69      0.72      0.70      2590
+    Aerobica       0.54      0.15      0.23      1494
+  Anaerobica       0.72      0.87      0.79      4870
+
+    accuracy                           0.70      8954
+   macro avg       0.65      0.58      0.57      8954
+weighted avg       0.68      0.70      0.67      8954
+ elapsed time:  22.249684399925172 
+
+Testing with seq_len:  16
+with mode:  FULL
+with classfier  KNeighborsClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.99      0.99      0.99      2600
+    Aerobica       0.97      0.97      0.97      1446
+  Anaerobica       1.00      1.00      1.00      4765
+
+    accuracy                           0.99      8811
+   macro avg       0.99      0.99      0.99      8811
+weighted avg       0.99      0.99      0.99      8811
+ elapsed time:  0.6305555000435561 
+
+with classfier  RandomForestClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.98      1.00      0.99      2600
+    Aerobica       0.99      0.97      0.98      1446
+  Anaerobica       1.00      1.00      1.00      4765
+
+    accuracy                           0.99      8811
+   macro avg       0.99      0.99      0.99      8811
+weighted avg       0.99      0.99      0.99      8811
+ elapsed time:  38.095782899996266 
+
+with classfier  SVC() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.87      0.92      0.90      2600
+    Aerobica       0.69      0.63      0.66      1446
+  Anaerobica       0.95      0.94      0.94      4765
+
+    accuracy                           0.89      8811
+   macro avg       0.84      0.83      0.83      8811
+weighted avg       0.88      0.89      0.88      8811
+ elapsed time:  40.758336199913174 
+
+Testing with seq_len:  16
+with mode:  RF-HR
+with classfier  KNeighborsClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.88      0.87      0.87      2600
+    Aerobica       0.81      0.78      0.79      1446
+  Anaerobica       0.92      0.93      0.92      4765
+
+    accuracy                           0.89      8811
+   macro avg       0.87      0.86      0.86      8811
+weighted avg       0.89      0.89      0.89      8811
+ elapsed time:  0.331189300166443 
+
+with classfier  RandomForestClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.91      0.94      0.92      2600
+    Aerobica       0.93      0.83      0.88      1446
+  Anaerobica       0.95      0.96      0.96      4765
+
+    accuracy                           0.93      8811
+   macro avg       0.93      0.91      0.92      8811
+weighted avg       0.93      0.93      0.93      8811
+ elapsed time:  21.067821300122887 
+
+with classfier  SVC() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.70      0.75      0.73      2600
+    Aerobica       0.52      0.28      0.37      1446
+  Anaerobica       0.78      0.85      0.81      4765
+
+    accuracy                           0.73      8811
+   macro avg       0.67      0.63      0.64      8811
+weighted avg       0.71      0.73      0.72      8811
+ elapsed time:  26.726278600050136 
+
+Testing with seq_len:  32
+with mode:  FULL
+with classfier  KNeighborsClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       1.00      0.99      0.99      2445
+    Aerobica       0.98      0.99      0.98      1468
+  Anaerobica       1.00      1.00      1.00      4613
+
+    accuracy                           0.99      8526
+   macro avg       0.99      0.99      0.99      8526
+weighted avg       0.99      0.99      0.99      8526
+ elapsed time:  1.338844200130552 
+
+with classfier  RandomForestClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.99      1.00      0.99      2445
+    Aerobica       0.98      0.98      0.98      1468
+  Anaerobica       1.00      1.00      1.00      4613
+
+    accuracy                           0.99      8526
+   macro avg       0.99      0.99      0.99      8526
+weighted avg       0.99      0.99      0.99      8526
+ elapsed time:  52.81030900008045 
+
+with classfier  SVC() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.88      0.91      0.89      2445
+    Aerobica       0.70      0.69      0.70      1468
+  Anaerobica       0.96      0.95      0.95      4613
+
+    accuracy                           0.89      8526
+   macro avg       0.85      0.85      0.85      8526
+weighted avg       0.89      0.89      0.89      8526
+ elapsed time:  57.28913430008106 
+
+Testing with seq_len:  32
+with mode:  RF-HR
+with classfier  KNeighborsClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.96      0.96      0.96      2445
+    Aerobica       0.94      0.94      0.94      1468
+  Anaerobica       0.98      0.98      0.98      4613
+
+    accuracy                           0.97      8526
+   macro avg       0.96      0.96      0.96      8526
+weighted avg       0.97      0.97      0.97      8526
+ elapsed time:  0.3979744999669492 
+
+with classfier  RandomForestClassifier() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.97      0.98      0.98      2445
+    Aerobica       0.97      0.94      0.95      1468
+  Anaerobica       0.99      0.99      0.99      4613
+
+    accuracy                           0.98      8526
+   macro avg       0.97      0.97      0.97      8526
+weighted avg       0.98      0.98      0.98      8526
+ elapsed time:  29.465963299851865 
+
+with classfier  SVC() 
+
+              precision    recall  f1-score   support
+
+      Riposo       0.72      0.78      0.75      2445
+    Aerobica       0.55      0.39      0.45      1468
+  Anaerobica       0.84      0.88      0.86      4613
+
+    accuracy                           0.77      8526
+   macro avg       0.70      0.68      0.69      8526
+weighted avg       0.75      0.77      0.76      8526
+ elapsed time:  32.9940207998734 
+

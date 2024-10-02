@@ -1,0 +1,69 @@
+TUNING RANDOM FOREST WITH SEQ_LEN =  2
+
+WITH MODE full
+Migliori iperparametri: {'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_samples_split': 2}
+Miglior score: 0.954186962405994
+
+WITH MODE no-load
+Migliori iperparametri: {'max_depth': None, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_samples_split': 3}
+Miglior score: 0.9312403415321707
+
+WITH MODE rf-hr
+Migliori iperparametri: {'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_samples_split': 4}
+Miglior score: 0.6519576312315147
+
+TUNING RANDOM FOREST WITH SEQ_LEN =  4
+
+WITH MODE full
+Migliori iperparametri: {'max_depth': None, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_samples_split': 3}
+Miglior score: 0.9598350397633638
+
+WITH MODE no-load
+Migliori iperparametri: {'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_samples_split': 3}
+Miglior score: 0.9378982294326021
+
+WITH MODE rf-hr
+Migliori iperparametri: {'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_samples_split': 3}
+Miglior score: 0.7140209813457046
+
+TUNING RANDOM FOREST WITH SEQ_LEN =  8
+
+WITH MODE full
+Migliori iperparametri: {'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_samples_split': 3}
+Miglior score: 0.9614958309117749
+
+WITH MODE no-load
+Migliori iperparametri: {'max_depth': None, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_samples_split': 2}
+Miglior score: 0.9474869432534042
+
+WITH MODE rf-hr
+Migliori iperparametri: {'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_samples_split': 2}
+Miglior score: 0.7757329378017512
+
+TUNING RANDOM FOREST WITH SEQ_LEN =  16
+ 
+WITH MODE full
+Migliori iperparametri: {'max_depth': None, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_samples_split': 4}
+Miglior score: 0.9689441217945532
+
+WITH MODE no-load
+Migliori iperparametri: {'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_samples_split': 2}
+Miglior score: 0.9544035563096139
+
+WITH MODE rf-hr
+Migliori iperparametri: {'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_samples_split': 3}
+Miglior score: 0.8443634212420598
+
+TUNING RANDOM FOREST WITH SEQ_LEN =  32
+
+WITH MODE full
+Migliori iperparametri: {'max_depth': None, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_samples_split': 3}
+Miglior score: 0.9739306994840845
+
+WITH MODE no-load
+Migliori iperparametri: {'max_depth': None, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_samples_split': 2}
+Miglior score: 0.9637556811980309
+
+WITH MODE rf-hr
+Migliori iperparametri: {'max_depth': None, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_samples_split': 3}
+Miglior score: 0.8993340624683459

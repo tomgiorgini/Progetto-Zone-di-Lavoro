@@ -1,0 +1,184 @@
+Testing with Classifier:  RF
+with mode:  FULL
+               precision    recall  f1-score   support
+
+       Riposo       0.98      0.99      0.98      2736
+     Aerobica       0.97      0.97      0.97      1474
+   Anaerobica       0.97      0.97      0.97      2418
+Defaticamento       0.97      0.96      0.97      2468
+
+     accuracy                           0.97      9096
+    macro avg       0.97      0.97      0.97      9096
+ weighted avg       0.97      0.97      0.97      9096
+ elapsed time:  9.114605800015852 
+
+with mode:  VO2-VCO2
+               precision    recall  f1-score   support
+
+       Riposo       0.82      0.89      0.85      2688
+     Aerobica       0.59      0.54      0.56      1492
+   Anaerobica       0.71      0.68      0.70      2494
+Defaticamento       0.80      0.80      0.80      2422
+
+     accuracy                           0.75      9096
+    macro avg       0.73      0.73      0.73      9096
+ weighted avg       0.75      0.75      0.75      9096
+ elapsed time:  5.388573599979281 
+
+with mode:  VE/VO2-VE/VCO2
+               precision    recall  f1-score   support
+
+       Riposo       0.79      0.85      0.82      2679
+     Aerobica       0.60      0.58      0.59      1470
+   Anaerobica       0.58      0.55      0.57      2472
+Defaticamento       0.69      0.70      0.70      2475
+
+     accuracy                           0.68      9096
+    macro avg       0.67      0.67      0.67      9096
+ weighted avg       0.68      0.68      0.68      9096
+ elapsed time:  5.520134799880907 
+
+with mode:  RF-HR
+               precision    recall  f1-score   support
+
+       Riposo       0.66      0.73      0.70      2597
+     Aerobica       0.46      0.36      0.40      1538
+   Anaerobica       0.65      0.70      0.67      2497
+Defaticamento       0.55      0.52      0.53      2464
+
+     accuracy                           0.60      9096
+    macro avg       0.58      0.58      0.57      9096
+ weighted avg       0.59      0.60      0.59      9096
+ elapsed time:  5.794485399965197 
+
+with mode:  Q-HR
+               precision    recall  f1-score   support
+
+       Riposo       0.82      0.85      0.83      2666
+     Aerobica       0.61      0.52      0.56      1501
+   Anaerobica       0.71      0.72      0.71      2450
+Defaticamento       0.72      0.74      0.73      2479
+
+     accuracy                           0.73      9096
+    macro avg       0.71      0.71      0.71      9096
+ weighted avg       0.73      0.73      0.73      9096
+ elapsed time:  5.171899700071663 
+
+with mode:  Q-RF
+               precision    recall  f1-score   support
+
+       Riposo       0.78      0.86      0.82      2695
+     Aerobica       0.53      0.49      0.51      1481
+   Anaerobica       0.70      0.67      0.68      2514
+Defaticamento       0.66      0.64      0.65      2406
+
+     accuracy                           0.69      9096
+    macro avg       0.67      0.67      0.67      9096
+ weighted avg       0.68      0.69      0.69      9096
+ elapsed time:  5.368897599866614 
+
+with mode:  HR
+               precision    recall  f1-score   support
+
+       Riposo       0.69      0.67      0.68      2662
+     Aerobica       0.40      0.38      0.39      1479
+   Anaerobica       0.63      0.65      0.64      2518
+Defaticamento       0.51      0.53      0.52      2437
+
+     accuracy                           0.58      9096
+    macro avg       0.56      0.56      0.56      9096
+ weighted avg       0.58      0.58      0.58      9096
+ elapsed time:  7.460937700001523 
+
+Testing with Classifier:  SVC
+with mode:  FULL
+               precision    recall  f1-score   support
+
+       Riposo       0.97      0.98      0.97      2736
+     Aerobica       0.96      0.94      0.95      1474
+   Anaerobica       0.97      0.98      0.98      2418
+Defaticamento       0.98      0.97      0.98      2468
+
+     accuracy                           0.97      9096
+    macro avg       0.97      0.97      0.97      9096
+ weighted avg       0.97      0.97      0.97      9096
+ elapsed time:  9.553545200033113 
+
+with mode:  VO2-VCO2
+               precision    recall  f1-score   support
+
+       Riposo       0.81      0.90      0.85      2688
+     Aerobica       0.59      0.50      0.54      1492
+   Anaerobica       0.71      0.68      0.69      2494
+Defaticamento       0.79      0.80      0.79      2422
+
+     accuracy                           0.75      9096
+    macro avg       0.72      0.72      0.72      9096
+ weighted avg       0.74      0.75      0.74      9096
+ elapsed time:  213.5022013001144 
+
+with mode:  VE/VO2-VE/VCO2
+               precision    recall  f1-score   support
+
+       Riposo       0.77      0.84      0.80      2679
+     Aerobica       0.55      0.57      0.56      1470
+   Anaerobica       0.53      0.40      0.46      2472
+Defaticamento       0.66      0.73      0.69      2475
+
+     accuracy                           0.65      9096
+    macro avg       0.63      0.64      0.63      9096
+ weighted avg       0.64      0.65      0.64      9096
+ elapsed time:  6.52548520010896 
+
+with mode:  RF-HR
+               precision    recall  f1-score   support
+
+       Riposo       0.62      0.74      0.68      2597
+     Aerobica       0.37      0.20      0.26      1538
+   Anaerobica       0.60      0.70      0.65      2497
+Defaticamento       0.50      0.45      0.47      2464
+
+     accuracy                           0.56      9096
+    macro avg       0.52      0.52      0.51      9096
+ weighted avg       0.54      0.56      0.54      9096
+ elapsed time:  16.582902599824592 
+
+with mode:  Q-HR
+               precision    recall  f1-score   support
+
+       Riposo       0.77      0.85      0.81      2666
+     Aerobica       0.51      0.38      0.44      1501
+   Anaerobica       0.65      0.65      0.65      2450
+Defaticamento       0.68      0.70      0.69      2479
+
+     accuracy                           0.68      9096
+    macro avg       0.65      0.65      0.65      9096
+ weighted avg       0.67      0.68      0.67      9096
+ elapsed time:  22.541404400020838 
+
+with mode:  Q-RF
+               precision    recall  f1-score   support
+
+       Riposo       0.75      0.89      0.81      2695
+     Aerobica       0.51      0.44      0.47      1481
+   Anaerobica       0.72      0.63      0.67      2514
+Defaticamento       0.65      0.65      0.65      2406
+
+     accuracy                           0.68      9096
+    macro avg       0.66      0.65      0.65      9096
+ weighted avg       0.67      0.68      0.68      9096
+ elapsed time:  9.194526500068605 
+
+with mode:  HR
+               precision    recall  f1-score   support
+
+       Riposo       0.53      0.76      0.62      2662
+     Aerobica       0.00      0.00      0.00      1479
+   Anaerobica       0.54      0.72      0.62      2518
+Defaticamento       0.33      0.26      0.29      2437
+
+     accuracy                           0.49      9096
+    macro avg       0.35      0.43      0.38      9096
+ weighted avg       0.39      0.49      0.43      9096
+ elapsed time:  5.160046699922532 
+
