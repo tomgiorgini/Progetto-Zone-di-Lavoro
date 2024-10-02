@@ -1,1 +1,12 @@
 # Progetto-Zone-di-Lavoro
+L'analisi delle zone di lavoro durante l'esercizio fisico è di cruciale importanza per ottimizzare le prestazioni atletiche, fornendo indicazioni fondamentali per la gestione dell'allenamento e del recupero. La correlazione tra i valori metabolici e la risposta fisica del soggetto rappresenta un ambito di grande rilevanza. Attualmente, il metodo standard per determinare tali zone è il Cardiopulmonary Exercise Testing (CPET), considerato il metodo di riferimento. La ricerca scientifica concorda principalmente sull'identificazione di due soglie fisiologiche, che verranno descritte nel dettaglio nella tesi, le quali delimitano tre zone di lavoro: la Zona di Riposo, la Zona Aerobica e la Zona Anaerobica.
+
+
+Gran parte di questo lavoro si concentra sull'analisi e il trattamento dei dati derivanti da 101 test CPET. Il cuore della tesi consiste nell'addestramento e tuning di tre algoritmi di machine learning supervisionato: K-Nearest Neighbors (KNN), Random Forest e Support Vector Machines (SVM), per la classificazione delle zone di lavoro. Gli algoritmi sono stati testati sia su una classificazione a 3 zone sia su una a 4 zone, quest'ultima derivante dalla struttura dei dati. Per migliorare l'accuratezza dei modelli, è stata eseguita una pulizia dei dati, eliminando campioni meno rilevanti o rumorosi, processo che ha portato a un miglioramento significativo delle performance dei modelli. Il tuning degli iperparametri, realizzato attraverso tecniche di grid search, ha ulteriormente ottimizzato le prestazioni degli algoritmi.
+
+\medskip
+Dopo la fase di addestramento, è stato condotto un confronto approfondito dei risultati ottenuti dai vari classificatori, per determinare quale modello fosse il più efficace e robusto nella predizione delle zone di lavoro, con le rispettive combinazioni di features e dati.
+
+
+
+Un tema centrale nella tesi, di grande rilevanza nella ricerca scientifica, è l'identificazione delle zone di lavoro utilizzando il minor numero possibile di feature, in particolare la frequenza cardiaca (HR) e la frequenza respiratoria (RF). Questo aspetto è particolarmente importante poiché il test CPET richiede attrezzature costose e la supervisione di personale medico, limitando la sua applicabilità al di fuori di contesti clinici. Pertanto, risulta interessante sviluppare alternative meno costose e più accessibili per la valutazione delle zone di lavoro, con possibili applicazioni in contesti sportivi più pratici e quotidiani.
